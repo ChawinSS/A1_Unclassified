@@ -31,32 +31,12 @@ const quizDataFromFile = [
   },
   {
     "question": "auf",
-    "correct": "on",
+    "correct": "on/until/in",
     "choices": [
       "she",
       "what",
       "two hundred",
-      "on"
-    ]
-  },
-  {
-    "question": "auf",
-    "correct": "until",
-    "choices": [
-      "to",
-      "until",
-      "busy",
-      "a lot"
-    ]
-  },
-  {
-    "question": "auf",
-    "correct": "in",
-    "choices": [
-      "there",
-      "in",
-      "to (somewhere)",
-      "fourteen"
+      "on/until/in"
     ]
   },
   {
@@ -91,22 +71,12 @@ const quizDataFromFile = [
   },
   {
     "question": "aus sein",
-    "correct": "to be (switched) off",
+    "correct": "to be (switched) off/to be out",
     "choices": [
       "valid",
       "time: 07:15",
       "one kilo(gram)",
-      "to be (switched) off"
-    ]
-  },
-  {
-    "question": "aus sein",
-    "correct": "to be out",
-    "choices": [
-      "to be out",
-      "later",
-      "him",
-      "there (to that place, in that direction)"
+      "to be (switched) off/to be out"
     ]
   },
   {
@@ -131,22 +101,12 @@ const quizDataFromFile = [
   },
   {
     "question": "bei",
-    "correct": "next to",
+    "correct": "next to/at/for",
     "choices": [
       "you (polite)",
       "sixty",
-      "next to",
+      "next to/at/for",
       "yourself"
-    ]
-  },
-  {
-    "question": "bei",
-    "correct": "at",
-    "choices": [
-      "bitter",
-      "at",
-      "no",
-      "still"
     ]
   },
   {
@@ -160,16 +120,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "bei",
-    "correct": "for",
-    "choices": [
-      "without",
-      "for",
-      "him/her",
-      "there"
-    ]
-  },
-  {
     "question": "beide",
     "correct": "both",
     "choices": [
@@ -177,16 +127,6 @@ const quizDataFromFile = [
       "someone",
       "both",
       "expensive"
-    ]
-  },
-  {
-    "question": "beide",
-    "correct": "both",
-    "choices": [
-      "second",
-      "from",
-      "both",
-      "please"
     ]
   },
   {
@@ -221,22 +161,12 @@ const quizDataFromFile = [
   },
   {
     "question": "besetzt",
-    "correct": "busy",
+    "correct": "busy/taken",
     "choices": [
       "quiet",
-      "busy",
+      "busy/taken",
       "who",
       "one square metre"
-    ]
-  },
-  {
-    "question": "besetzt",
-    "correct": "taken",
-    "choices": [
-      "in",
-      "to (somewhere)",
-      "thirteen",
-      "taken"
     ]
   },
   {
@@ -261,22 +191,12 @@ const quizDataFromFile = [
   },
   {
     "question": "bis",
-    "correct": "to (as far as)",
+    "correct": "to (as far as)/until",
     "choices": [
-      "to (as far as)",
+      "to (as far as)/until",
       "to prefer",
       "when",
       "after / past (time)"
-    ]
-  },
-  {
-    "question": "bis",
-    "correct": "until",
-    "choices": [
-      "another",
-      "until",
-      "very",
-      "dead"
     ]
   },
   {
@@ -286,16 +206,6 @@ const quizDataFromFile = [
       "long",
       "above",
       "time: 00:03",
-      "please"
-    ]
-  },
-  {
-    "question": "bitte",
-    "correct": "please",
-    "choices": [
-      "valid",
-      "to be out",
-      "by",
       "please"
     ]
   },
@@ -331,42 +241,12 @@ const quizDataFromFile = [
   },
   {
     "question": "da",
-    "correct": "there",
+    "correct": "there/here",
     "choices": [
-      "there",
+      "there/here",
       "until",
       "high",
       "thirteen"
-    ]
-  },
-  {
-    "question": "da",
-    "correct": "here",
-    "choices": [
-      "she",
-      "in",
-      "you",
-      "here"
-    ]
-  },
-  {
-    "question": "da",
-    "correct": "there",
-    "choices": [
-      "there",
-      "yellow",
-      "lovely",
-      "right"
-    ]
-  },
-  {
-    "question": "da",
-    "correct": "here",
-    "choices": [
-      "there",
-      "taken",
-      "what",
-      "here"
     ]
   },
   {
@@ -421,22 +301,12 @@ const quizDataFromFile = [
   },
   {
     "question": "das",
-    "correct": "that",
+    "correct": "that/the",
     "choices": [
       "normal",
       "high",
       "same",
-      "that"
-    ]
-  },
-  {
-    "question": "das",
-    "correct": "the",
-    "choices": [
-      "you (polite)",
-      "the",
-      "first",
-      "unemployed"
+      "that/the"
     ]
   },
   {
@@ -531,62 +401,32 @@ const quizDataFromFile = [
   },
   {
     "question": "eilig",
-    "correct": "…",
+    "correct": "hurry",
     "choices": [
       "five",
       "lovely",
       "same",
-      "…"
+      "hurry"
     ]
   },
   {
     "question": "ein-",
-    "correct": "one / a",
+    "correct": "one / a/someone",
     "choices": [
-      "one / a",
+      "one / a/someone",
       "by",
       "cheap",
       "to where"
     ]
   },
   {
-    "question": "ein-",
-    "correct": "someone",
-    "choices": [
-      "one centimetre",
-      "dear",
-      "someone",
-      "below"
-    ]
-  },
-  {
     "question": "einfach",
-    "correct": "simple",
+    "correct": "simple/a single (ticket)",
     "choices": [
       "as",
-      "simple",
+      "simple/a single (ticket)",
       "at the weekend",
       "…"
-    ]
-  },
-  {
-    "question": "einfach",
-    "correct": "a single (ticket)",
-    "choices": [
-      "as",
-      "another",
-      "a single (ticket)",
-      "now"
-    ]
-  },
-  {
-    "question": "einfach",
-    "correct": "simple",
-    "choices": [
-      "our",
-      "simple",
-      "last",
-      "both"
     ]
   },
   {
@@ -660,16 +500,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "fertig",
-    "correct": "finished / ready / done",
-    "choices": [
-      "she",
-      "to hike",
-      "finished / ready / done",
-      "still"
-    ]
-  },
-  {
     "question": "frei",
     "correct": "free",
     "choices": [
@@ -707,26 +537,6 @@ const quizDataFromFile = [
       "for",
       "because",
       "return"
-    ]
-  },
-  {
-    "question": "für",
-    "correct": "for",
-    "choices": [
-      "another",
-      "why",
-      "single",
-      "for"
-    ]
-  },
-  {
-    "question": "für",
-    "correct": "for",
-    "choices": [
-      "like",
-      "so",
-      "for",
-      "there"
     ]
   },
   {
@@ -771,22 +581,12 @@ const quizDataFromFile = [
   },
   {
     "question": "gleich",
-    "correct": "same",
+    "correct": "same/now",
     "choices": [
       "without",
-      "same",
+      "same/now",
       "once",
       "long"
-    ]
-  },
-  {
-    "question": "gleich",
-    "correct": "now",
-    "choices": [
-      "to do",
-      "now",
-      "for",
-      "at"
     ]
   },
   {
@@ -840,16 +640,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "hier",
-    "correct": "here",
-    "choices": [
-      "quiet",
-      "at",
-      "like",
-      "here"
-    ]
-  },
-  {
     "question": "hoch",
     "correct": "high",
     "choices": [
@@ -891,42 +681,12 @@ const quizDataFromFile = [
   },
   {
     "question": "in",
-    "correct": "in",
+    "correct": "in/to",
     "choices": [
       "bitter",
-      "in",
+      "in/to",
       "straight on",
       "on"
-    ]
-  },
-  {
-    "question": "in",
-    "correct": "in",
-    "choices": [
-      "in",
-      "eleven",
-      "yellow",
-      "in front of"
-    ]
-  },
-  {
-    "question": "in",
-    "correct": "in",
-    "choices": [
-      "valid",
-      "in",
-      "you",
-      "taken"
-    ]
-  },
-  {
-    "question": "in",
-    "correct": "to",
-    "choices": [
-      "to",
-      "for",
-      "in front of",
-      "to look after"
     ]
   },
   {
@@ -967,16 +727,6 @@ const quizDataFromFile = [
       "young",
       "here",
       "there (to that place, in that direction)"
-    ]
-  },
-  {
-    "question": "kaputt",
-    "correct": "…",
-    "choices": [
-      "she",
-      "ten",
-      "one centimetre",
-      "…"
     ]
   },
   {
@@ -1121,22 +871,12 @@ const quizDataFromFile = [
   },
   {
     "question": "leicht",
-    "correct": "light (weight)",
+    "correct": "light (weight)/easy",
     "choices": [
       "you (polite)",
-      "light (weight)",
+      "light (weight)/easy",
       "later",
       "time: 13:17"
-    ]
-  },
-  {
-    "question": "leicht",
-    "correct": "easy",
-    "choices": [
-      "half past two",
-      "no",
-      "easy",
-      "with"
     ]
   },
   {
@@ -1283,16 +1023,6 @@ const quizDataFromFile = [
     "question": "nach",
     "correct": "to (somewhere)",
     "choices": [
-      "also",
-      "to (somewhere)",
-      "a lot",
-      "approximately"
-    ]
-  },
-  {
-    "question": "nach",
-    "correct": "to (somewhere)",
-    "choices": [
       "to (somewhere)",
       "approximately",
       "last",
@@ -1331,16 +1061,6 @@ const quizDataFromFile = [
   },
   {
     "question": "nichts",
-    "correct": "…",
-    "choices": [
-      "(one) hundred",
-      "both",
-      "slow",
-      "…"
-    ]
-  },
-  {
-    "question": "nichts",
     "correct": "nothing",
     "choices": [
       "bitter",
@@ -1351,32 +1071,12 @@ const quizDataFromFile = [
   },
   {
     "question": "noch",
-    "correct": "still",
+    "correct": "still/another",
     "choices": [
       "without",
       "across",
-      "still",
+      "still/another",
       "to look after"
-    ]
-  },
-  {
-    "question": "noch",
-    "correct": "another",
-    "choices": [
-      "another",
-      "fifty",
-      "what",
-      "one half; half"
-    ]
-  },
-  {
-    "question": "noch",
-    "correct": "still",
-    "choices": [
-      "again",
-      "here / where we are",
-      "still",
-      "..."
     ]
   },
   {
@@ -1451,32 +1151,12 @@ const quizDataFromFile = [
   },
   {
     "question": "schlecht",
-    "correct": "sick",
+    "correct": "sick/bad",
     "choices": [
       "until",
-      "sick",
+      "sick/bad",
       "grey",
       "very"
-    ]
-  },
-  {
-    "question": "schlecht",
-    "correct": "bad",
-    "choices": [
-      "ill",
-      "now",
-      "...",
-      "bad"
-    ]
-  },
-  {
-    "question": "schlecht",
-    "correct": "bad",
-    "choices": [
-      "next",
-      "you (polite)",
-      "you",
-      "bad"
     ]
   },
   {
@@ -1491,42 +1171,22 @@ const quizDataFromFile = [
   },
   {
     "question": "schön",
-    "correct": "lovely",
+    "correct": "lovely/beautiful",
     "choices": [
       "light (weight)",
-      "lovely",
+      "lovely/beautiful",
       "next to",
       "when"
     ]
   },
   {
-    "question": "schön",
-    "correct": "beautiful",
-    "choices": [
-      "in",
-      "now",
-      "what kind of",
-      "beautiful"
-    ]
-  },
-  {
     "question": "schwer",
-    "correct": "heavy",
+    "correct": "heavy/difficult",
     "choices": [
       "above",
       "broken",
       "fourth",
-      "heavy"
-    ]
-  },
-  {
-    "question": "schwer",
-    "correct": "difficult",
-    "choices": [
-      "again",
-      "more",
-      "difficult",
-      "one square metre"
+      "heavy/difficult"
     ]
   },
   {
@@ -1641,42 +1301,12 @@ const quizDataFromFile = [
   },
   {
     "question": "so",
-    "correct": "like this",
+    "correct": "like this/so/as",
     "choices": [
       "best",
-      "like this",
+      "like this/so/as",
       "eighteen",
       "with"
-    ]
-  },
-  {
-    "question": "so",
-    "correct": "so",
-    "choices": [
-      "short",
-      "to hike",
-      "eight",
-      "so"
-    ]
-  },
-  {
-    "question": "so",
-    "correct": "as",
-    "choices": [
-      "as",
-      "another",
-      "fourth",
-      "international"
-    ]
-  },
-  {
-    "question": "so",
-    "correct": "so",
-    "choices": [
-      "one pound",
-      "time: 07:15",
-      "so",
-      "beautiful"
     ]
   },
   {
@@ -1740,63 +1370,23 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "tun",
-    "correct": "to do",
-    "choices": [
-      "to do",
-      "how",
-      "there",
-      "to where"
-    ]
-  },
-  {
     "question": "über",
-    "correct": "across",
+    "correct": "across/above/over",
     "choices": [
       "until",
       "please",
-      "across",
+      "across/above/over",
       "one percent"
     ]
   },
   {
-    "question": "über",
-    "correct": "above",
-    "choices": [
-      "above",
-      "for",
-      "again",
-      "on"
-    ]
-  },
-  {
-    "question": "über",
-    "correct": "over",
-    "choices": [
-      "over",
-      "fifty",
-      "four degrees above zero/plus four degrees",
-      "one / impersonal ‘you’"
-    ]
-  },
-  {
     "question": "um",
-    "correct": "at",
+    "correct": "at/around",
     "choices": [
       "our",
-      "at",
+      "at/around",
       "it",
       "hello"
-    ]
-  },
-  {
-    "question": "um",
-    "correct": "around",
-    "choices": [
-      "around",
-      "half past two",
-      "next to",
-      "he"
     ]
   },
   {
@@ -1871,22 +1461,12 @@ const quizDataFromFile = [
   },
   {
     "question": "vor",
-    "correct": "ago",
+    "correct": "ago/in front of",
     "choices": [
       "quiet",
       "for",
       "still",
-      "ago"
-    ]
-  },
-  {
-    "question": "vor",
-    "correct": "in front of",
-    "choices": [
-      "you (polite)",
-      "right",
-      "lovely",
-      "in front of"
+      "ago/in front of"
     ]
   },
   {
@@ -1910,26 +1490,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "wann",
-    "correct": "when",
-    "choices": [
-      "long",
-      "when",
-      "one degree below zero/minus one degree",
-      "heavy"
-    ]
-  },
-  {
-    "question": "wann",
-    "correct": "when",
-    "choices": [
-      "six",
-      "by",
-      "when",
-      "foreign"
-    ]
-  },
-  {
     "question": "warum",
     "correct": "why",
     "choices": [
@@ -1947,16 +1507,6 @@ const quizDataFromFile = [
       "five",
       "from where",
       "dead"
-    ]
-  },
-  {
-    "question": "was",
-    "correct": "what",
-    "choices": [
-      "also",
-      "what",
-      "our",
-      "he"
     ]
   },
   {
@@ -2020,16 +1570,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "wenig",
-    "correct": "little",
-    "choices": [
-      "to",
-      "now",
-      "little",
-      "thirty"
-    ]
-  },
-  {
     "question": "wer",
     "correct": "who",
     "choices": [
@@ -2051,72 +1591,12 @@ const quizDataFromFile = [
   },
   {
     "question": "wie",
-    "correct": "what",
+    "correct": "what/like/as/how",
     "choices": [
       "how",
       "best",
-      "what",
+      "what/like/as/how",
       "foreign"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "like",
-    "choices": [
-      "like",
-      "four",
-      "three",
-      "which"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "as",
-    "choices": [
-      "as",
-      "sixteen",
-      "and",
-      "brown"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "how",
-    "choices": [
-      "how",
-      "cultural",
-      "two hundred",
-      "to be (switched) off"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "how",
-    "choices": [
-      "how",
-      "fifteen",
-      "six",
-      "as"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "…",
-    "choices": [
-      "there",
-      "tired",
-      "it",
-      "…"
-    ]
-  },
-  {
-    "question": "wie",
-    "correct": "how",
-    "choices": [
-      "how",
-      "next",
-      "here",
-      "yourself"
     ]
   },
   {
@@ -2150,26 +1630,6 @@ const quizDataFromFile = [
     ]
   },
   {
-    "question": "wo",
-    "correct": "where",
-    "choices": [
-      "where",
-      "straight on",
-      "here",
-      "to"
-    ]
-  },
-  {
-    "question": "wo",
-    "correct": "where",
-    "choices": [
-      "where",
-      "in",
-      "at the weekend",
-      "one metre fifteen"
-    ]
-  },
-  {
     "question": "woher",
     "correct": "from where",
     "choices": [
@@ -2186,16 +1646,6 @@ const quizDataFromFile = [
       "to be (switched) off",
       "one / a",
       "important",
-      "to where"
-    ]
-  },
-  {
-    "question": "wohin",
-    "correct": "to where",
-    "choices": [
-      "the",
-      "to hike",
-      "approximately",
       "to where"
     ]
   },
@@ -2221,52 +1671,22 @@ const quizDataFromFile = [
   },
   {
     "question": "zu",
-    "correct": "to",
+    "correct": "to/by/at",
     "choices": [
-      "to",
+      "to/by/at",
       "best",
       "as",
       "on"
     ]
   },
   {
-    "question": "zu",
-    "correct": "by",
-    "choices": [
-      "one kilo(gram)",
-      "yellow",
-      "two hundred kilometres",
-      "by"
-    ]
-  },
-  {
-    "question": "zu",
-    "correct": "at",
-    "choices": [
-      "at",
-      "lovely",
-      "you",
-      "interested in culture"
-    ]
-  },
-  {
     "question": "zurück",
-    "correct": "return",
+    "correct": "return/back",
     "choices": [
       "there",
       "what",
       "here",
-      "return"
-    ]
-  },
-  {
-    "question": "zurück",
-    "correct": "back",
-    "choices": [
-      "seventy",
-      "the",
-      "in front of",
-      "back"
+      "return/back"
     ]
   },
   {
